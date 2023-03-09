@@ -1,0 +1,169 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Kumbh+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;1,300;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,500&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    font-family: "Poppins";
+}
+.container{
+    width: 90%;
+    height: 800px;
+    margin:100px 50px;
+    background-image: radial-gradient(circle at center, #0f343f 0%, #0f343f 0%, #051821 100%, #051821 100%);
+}
+.navBar{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainNav,.social{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    margin: 20px 10px;
+}
+.mainNav  a,.social a{
+    font-size: 24px;
+    line-height: 50px;
+    color: #dda97c;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-decoration: none;
+    margin: 10px;
+}
+.logo{
+    width: 15%;
+    height: 70%;
+    margin: 10px 40px;
+}
+.texture{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    z-index: 1;
+}
+.dessin,.texte{
+    height: 100%;
+    z-index: 2;
+}
+.texte{
+    padding-top:70px ;
+}
+.vect{
+    width: 100%;
+    z-index: 2;
+}
+.texte h1{
+    font-size: 65px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #fefefe;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    filter: drop-shadow(11.314px 11.314px 125px rgba(26,133,169,0.63));
+    width: 500px;
+    margin-left: 80px;
+}
+.texte h3{
+    font-size: 24px;
+    color: #dda97c;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.texte p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #e0ab7e;
+    font-weight: 300;
+    font-family: "Poppins";
+    display: block;
+    margin-left: 35px;
+
+}
+.texte button{
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color:#fff;
+    margin-left: 35px;
+    text-transform: uppercase;
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+}
+button img{
+    width:10%;
+    margin: 5px;
+}
+.info{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.vector5{
+    position: absolute;
+}
+#vect1{
+    width: 120px;
+    left: 110px;
+    margin-top: 170px;
+    z-index: 2;
+}
+#vect2{
+    width: 30px;
+    left: 250px;
+    margin-top: 300px;
+}
+#vect3{
+    width: 30px;
+    left: 520px;
+    margin-top: 260px;
+}
+#vect4{
+    width: 140px;
+    left: 300px;
+    margin-top: 190px;
+}
+#vect5{
+    width: 140px;
+    left: 500px;
+    margin-top: 70px;
+}
+#vect6{
+    width: 140px;
+    left: 250px;
+    margin-top: 10px;
+    z-index: 1;
+}
+#vect7{
+    width: 120px;
+    left: 520px;
+    margin-top: 300px;
+}
+#vect8{
+    width: 120px;
+    left: 200px;
+    margin-top:390px;
+}
+#vectSmart1{
+    width: 120px;
+    left: 270px;
+    margin-top:150px;
+    opacity: .9;
+   
+}
